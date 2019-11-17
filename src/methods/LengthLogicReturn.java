@@ -7,11 +7,11 @@ public class LengthLogicReturn {
         for(int i = 0; i < str.length(); i++) {
             count ++;
         }
-        return count;
+      return count;
     }
 
     public static void main(String[] args) {
-
+//stringLength("weeeee");
         System.out.println(stringLength("word"));
     }
 }

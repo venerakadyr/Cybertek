@@ -1,16 +1,20 @@
 package homeTask;
 
-public class Rectangle {
+public class Shapes {
     public static void main(String[] args) {
 
 
 //
 //        int count=0;
-//
+
 //        while( count<5) {
 //            System.out.println("******");
 //            count++;
 //        }
+//   ===========================================================================================
+//       for(int i=0; i<5;i++){
+//           System.out.println("&&&&&&");
+//       }
 //******
 //******
 //******
@@ -18,16 +22,16 @@ public class Rectangle {
 //******
 
 
-//        String wholeStar = "11111111";
-//        String star = "2";
+//        String wholeStar = "*******";
+//        String star = "#";
 //
-//        for (int c= 0; c <= 6; c++) {
-//            for (int r = 0; r <= 2; r++) {
-//                if (c== 0 && r == 0)
+//        for (int r= 0; r <= 1; r++) {
+//            for (int c = 0; c<= 2; c++) {
+//                if (r== 0 && c == 0)
 //                    System.out.println(wholeStar);
-//                if (c == 6 && r <= 1)
+//                if (r == 1 && c <= 1)
 //                    System.out.println(star + "    " + star);
-//                if (r==6 && c==2)
+//                if (r==1 && c==2)
 //                    System.out.println(wholeStar);
 //            }
 //
@@ -111,21 +115,21 @@ public class Rectangle {
 //       for (int i = 0; i < num; i++) {
 // if (str1.charAt(i) >= 48 && str1.charAt(i) <= 57 && str1.length() >= 3 && str1.length() <= 100) {
 //       str2 = str2 + str1.charAt(i);
-
+//===================================================================================================
 //  half diamond shape
-   for(int i=0; i<=5; i++) {
-       for (int j = 0; j < i; j++) {
-          System.out.print("*");
-       }
-       System.out.println(" ");
- }
-         for(int i=4; i>0; i--) {
-            for (int j= 0; j < i; j++) {
-                System.out.print("*");
-           }
-          System.out.println(" ");
+//   for(int i=0; i<=5; i++) {
+//       for (int j = 0; j < i; j++) {
+//          System.out.print("*");
+//       }
+//       System.out.println(" ");
+// }
+//         for(int i=4; i>0; i--) {
+//            for (int j= 0; j < i; j++) {
+//                System.out.print("*");
+//           }
+//          System.out.println(" ");
         }
-
+//====================================================================================================
 
 //        for(int a =0; a <8; a++){
 //            for(int b =0; b < 8 - a; b++)
@@ -137,5 +141,5 @@ public class Rectangle {
 //        }
 }
 
-    }
+
 
