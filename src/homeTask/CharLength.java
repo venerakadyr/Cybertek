@@ -1,5 +1,7 @@
 package homeTask;
 
+import java.util.Arrays;
+
 public class CharLength {
     public static void main(String[] args){
 
@@ -41,7 +43,19 @@ public class CharLength {
 //5
 //Output:
 //Factorial: 120
-
+ int [] nums={3,4};
+        int mid=nums.length/2;
+        if(nums.length>=3){
+            if(nums[0]>nums[mid]&&nums[0]>nums[nums.length-1]){
+                System.out.println( nums[0]);
+            }else if(nums[mid]>nums[0]&&nums[mid]>nums[nums.length-1]){
+                System.out.println(nums[mid]);
+            }else if(nums[nums.length-1]>nums[0]&&nums[nums.length-1]>nums[mid]){
+                System.out.println(  nums[nums.length-1]);
+            }
+        }else {}
+            System.out.println(nums);
+        }
 
 
 
@@ -49,4 +63,4 @@ public class CharLength {
 
 
     }
-}
+

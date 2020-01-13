@@ -1,5 +1,7 @@
 package loops;
 
+import inheritancePart2.Laptop;
+
 public class Apple {
     public static void main(String[] args) {
 

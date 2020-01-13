@@ -1,6 +1,10 @@
 package classes;
 
+import java.util.Scanner;
+
 public class PaperPlane {
+    private static Scanner Scannerinput;
+
     public static void main(String[] args) {
 //        Create 2 flags and givea first flag  a value
 //        reassign the value of first flag to a second flag
@@ -40,8 +44,16 @@ public class PaperPlane {
 //      jeep.drive(25);
 //===================================================================================================================
 
-
-
-
+//        House h1=new House();
+//   Scanner input=new Scanner(System.in);
+//        System.out.println("Enter your house type:");
+//   h1.type=input.nextLine();
+//        System.out.println("Enter house address:");
+//   h1.address=input.nextLine();
+//        System.out.println("Enter number of rooms:");
+//   h1.numRooms=input.nextInt();
+//
+//
+//h1.info();
     }
 }

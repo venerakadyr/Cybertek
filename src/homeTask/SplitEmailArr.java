@@ -23,29 +23,31 @@ public class SplitEmailArr {
 //email -> my@fancy@email.com
 //print:
 //invalid email
-        Scanner input = new Scanner(System.in);
-        String email = input.nextLine();
-
-
-        String[] arr = email.split("@");
-//        System.out.println(Arrays.toString(arr));
-        if(arr.length==2){
-            System.out.println("Email id: "+arr[0]);
-            System.out.println("Email domain: "+arr[1]);
-        }else{
-            System.out.println("invalid email");
-        }
-
-
-
+//        Scanner input = new Scanner(System.in);
+//        String email = input.nextLine();
+//
+//
+//        String[] arr = email.split("@");
+////        System.out.println(Arrays.toString(arr));
+//        if(arr.length==2){
+//            System.out.println("Email id: "+arr[0]);
+//            System.out.println("Email domain: "+arr[1]);
+//        }else{
+//            System.out.println("invalid email");
+//        }
 
 
 
+       int number=0;
+        for (int i = 0; i <=5; i++) {
+            for (int j = 0; j < i; j++) {
+                System.out.print(++number);
+            }
+            System.out.println(" ");
 
+  }
 
     }
 
+
 }
-
-
-

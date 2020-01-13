@@ -4,6 +4,7 @@ public class Shapes {
     public static void main(String[] args) {
 
 
+
 //
 //        int count=0;
 
@@ -22,16 +23,29 @@ public class Shapes {
 //******
 
 
-//        String wholeStar = "*******";
-//        String star = "#";
-//
-//        for (int r= 0; r <= 1; r++) {
-//            for (int c = 0; c<= 2; c++) {
-//                if (r== 0 && c == 0)
+        String wholeStar = "*******";
+        String star = "#";
+
+
+
+        for(int i=0;i<=3;i++){
+            if(i==0){
+                System.out.println(wholeStar);
+            }if(i==1){
+                System.out.println(star+"    "+star);
+            }
+            if(i==3){
+                System.out.println(wholeStar);
+            }
+        }
+
+//        for (int c= 0; c<= 1; c++) {
+//            for (int r= 0; r<= 2; r++) {
+//                if (c== 0 && r == 0)
 //                    System.out.println(wholeStar);
-//                if (r == 1 && c <= 1)
+//                if (c == 1 && r<= 1)
 //                    System.out.println(star + "    " + star);
-//                if (r==1 && c==2)
+//                if (c==1 && r==2)
 //                    System.out.println(wholeStar);
 //            }
 //
@@ -139,6 +153,11 @@ public class Shapes {
 //                System.out.print("*");
 //            System.out.println();
 //        }
+
+
+
+
+
 }
 
 
