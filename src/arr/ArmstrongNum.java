@@ -16,22 +16,38 @@ public class ArmstrongNum {
 
 //
 //        {
-            int a, b, c, d, e;
-            a = 1;
-            while (a <= 500) {
-                b = a % 10;
-                c = a / 10;
-                d = c % 10;
-                e = c / 10;
-                if (a == e * e * e + d * d * d + b * b * b)
-                    System.out.println(a);
+//            int a, b, c, d, e;
+//            a = 1;
+//            while (a <= 500) {   int a =157;
+//                b = a % 10;
+//                c = a / 10;
+//                d = c % 10;
+//                e = c / 10;
+//                if (a == e * e * e + d * d * d + b * b * b)
+//                    System.out.println(a);
+//
+//                a++;
+//            }
 
-                a++;
+
+        String str = "*AAAab**cd*";
+        String str1="";
+        if(str.startsWith("*")){
+            str=str.substring(2);
+            if(str.endsWith("*")){
+                str=str.substring(0,str.length()-2);
             }
-
-
         }
 
+        for (int i = 0; i < str.length(); i++) {
+            if (str.charAt(i) == '*'&&str.charAt(i+1) == '*'){
+               str= str.substring(0,i-1 )+str.substring(i+3);
+            }else if(str.charAt(i) == '*'){
+                str= str.substring(0,i-1 )+str.substring(i+2);
+            }
+        }
 
+        System.out.println(str1);
     }
 
+}

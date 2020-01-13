@@ -2,6 +2,8 @@ package homeTask;
 
 //import java.util.Scanner;
 
+import java.util.Arrays;
+
 public class AdditionQuiz {
 
     public  static void main(String [] args ){
@@ -54,7 +56,23 @@ public class AdditionQuiz {
 //        i = (int)b;
 //        int i = 1;
 //        boolean b = (boolean)i;
-
+       int [] a={1,2,3,3};
+       int [] b={};
+        int [] newArr=new int[2];
+        if(a.length==0&&b.length==0){
+//            System.out.println(Arrays.toString(newArr));
+        }else if(a.length>0&&b.length==0){
+            newArr[0]=a[0];
+            System.out.println(newArr[0]);
+        }else if (a.length==0&&b.length>0){
+             newArr[0]=b[0];
+            System.out.println(newArr[0]);
+        }else{
+            newArr[0]=a[0];
+            newArr[1]=b[0];
+        }
+        System.out.println(Arrays.toString(newArr));
+    }
 
 
     }
@@ -64,4 +82,4 @@ public class AdditionQuiz {
 
 
 
-}
+

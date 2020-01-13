@@ -1,4 +1,4 @@
-package codingTask;
+package repl.IT;
 
 
     import javax.imageio.ImageIO;

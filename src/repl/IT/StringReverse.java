@@ -1,4 +1,4 @@
-package codingTask;
+package repl.IT;
 
 public class StringReverse {
     public static void main(String[] args) {

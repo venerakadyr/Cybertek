@@ -1,4 +1,4 @@
-package projectTeam;
+package repl.IT.projectTeam;
 
 import java.util.Scanner;
 
