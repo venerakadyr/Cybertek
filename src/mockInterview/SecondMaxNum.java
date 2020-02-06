@@ -1,5 +1,6 @@
 package mockInterview;
 
+import java.util.ArrayList;
 public class SecondMaxNum {
     public static int secondMaxNumber(int ... arr) {
         int max = arr[0];
