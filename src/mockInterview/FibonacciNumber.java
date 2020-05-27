@@ -3,6 +3,7 @@ package mockInterview;
 import java.util.Arrays;
 
 public class FibonacciNumber {
+
 //    public static String allFibonacciInRange(int range) {
 //
 //        int [] arr = new int[range];
@@ -72,6 +73,30 @@ public static String fbNum(int num) {
 }
        return fib;
 }
+
+    public static void main(String[] args) {
+
+        //011235813
+        int range=15;
+         int number1=0;
+         int number2=1;
+         int sum=0;
+         String f= number1+"_"+number2;
+
+
+   for( int i=1; i<range; i++){
+
+       sum=number1+number2;
+       f+="_"+sum;
+       number1=number2;
+       number2=sum;
+
+   }
+
+        System.out.println(f);
+
+
+    }
 
 
 }

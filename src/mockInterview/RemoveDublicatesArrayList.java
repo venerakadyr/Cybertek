@@ -1,10 +1,7 @@
 package mockInterview;
 
 import java.lang.reflect.Array;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.LinkedHashSet;
-import java.util.Set;
+import java.util.*;
 
 public class RemoveDublicatesArrayList {
     public static void main(String[] args) {
@@ -25,7 +22,7 @@ public class RemoveDublicatesArrayList {
         ArrayList<Integer> newList = new ArrayList<>(Arrays.asList(1, 10, 1, 2, 2, 3, 3, 10, 3, 4, 5, 5));
 
         // Create a new LinkedHashSet
-        Set<Integer> setVersion = new LinkedHashSet<>();
+        Set<Integer> setVersion = new TreeSet<>();
 
         // Add the elements to set
         setVersion.addAll(newList);
@@ -37,6 +34,8 @@ public class RemoveDublicatesArrayList {
         // with no duplicates to the list
         newList.addAll(setVersion);
         System.out.println(newList);
+
+
 
 
     }

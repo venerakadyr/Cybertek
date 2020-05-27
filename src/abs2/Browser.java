@@ -1,6 +1,6 @@
 package abs2;
 
-public abstract class Browser {
+ public abstract class Browser {
     String name;
     double size;
 
