@@ -8,5 +8,6 @@ public class Endswith3 {
                 System.out.println(arr[i]);
             }
         }
+
     }
 }

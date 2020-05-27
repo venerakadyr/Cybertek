@@ -3,7 +3,31 @@ package mockInterview;
 import java.util.Arrays;
 
 public class ReverseTask {
+    public  static String toReverse(String str) {
+        String reverse = "";
+        for (int i = str.length() - 1; i >= 0; i--) {
+            reverse += str.charAt(i);
+        }
+        return reverse;
+    }
+
+
+    public static boolean isPalindrom(String str) {
+        boolean isPalindrom = false;
+        String strToCheck = toReverse(str);
+        System.out.println(strToCheck+"reversed vesrion");
+
+        if (strToCheck.toLowerCase().equals(str)) {
+            return isPalindrom=true;
+        }
+        return isPalindrom= false;
+
+    }
+
+
     public static void main(String[] args) {
+
+        System.out.println(isPalindrom("civic"));
 //        FIRST VERSION=============================================================
 //        GIVEN STRING  SENTECE REVERSE IRT
 //        String str= "It started to snow in Chicago";
@@ -48,21 +72,22 @@ public class ReverseTask {
 //
 //==================================================== REVERSE INT ARRAY
 
-        int[] number={1,2,3,4,5,6};
+//        int[] number={1,2,3,4,5,6};
+//
+//        int temp=0;
+//        for (int i=0; i<number.length/2;i++){
+////            i need my loop iterate on;y half length because each iteration will be one swaping, if it full lenght
+////            iteration will be 2 swaping and evryhing will be back where it started
+//            temp=number[i];
+//            number[i]=number[number.length-1-i];
+////            storing last digit and - i
+//            number[number.length-1-i]=temp;
+//        }
+//        System.out.println(Arrays.toString(number));
+//
+//    }
 
-        int temp=0;
-        for (int i=0; i<number.length/2;i++){
-//            i need my loop iterate on;y half length because each iteration will be one swaping, if it full lenght
-//            iteration will be 2 swaping and evryhing will be back where it started
-            temp=number[i];
-            number[i]=number[number.length-1-i];
-//            storing last digit and - i
-            number[number.length-1-i]=temp;
-        }
-        System.out.println(Arrays.toString(number));
 
     }
-
-
-    }
+}
 
